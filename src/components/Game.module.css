@@ -1,0 +1,35 @@
+.mainDiv {
+  padding: 15px;
+  background-color: transparent !important;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none !important;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  background-color: #ef927f !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+  border: none !important;
+  font-size: 1rem !important;
+}
+.buttonDisabled {
+  background-color: #4b495f !important;
+}
+.resetButton {
+  background: linear-gradient(to right, #ef927f, #2a2a40) !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: none !important;
+  font-size: 1.25rem !important;
+}
+.resetButton:hover {
+  background: linear-gradient(to right, #2a2a40, #ef927f) !important;
+}

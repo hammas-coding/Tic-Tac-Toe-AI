@@ -1,0 +1,42 @@
+body {
+  background-color: #2a2a40;
+}
+
+h1 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.status {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.75em;
+  border-radius: 2rem;
+  border: none !important;
+  transition: all 0.3s;
+  background-color: #ef927f;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.square:hover {
+  background-color: #4b495f;
+}
+
+.board-container {
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
